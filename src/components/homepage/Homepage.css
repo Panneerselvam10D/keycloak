@@ -1,0 +1,20 @@
+
+  
+  .bg {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).webp");
+    height: 90.5  vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items:flex-start; /* Center vertically */
+    height: 90.5vh; /* Set the container's height to the viewport height */
+  }
+  
+  .centered-text {
+    text-align: center; /* Center the text horizontally within the paragraph */
+  }
+  
