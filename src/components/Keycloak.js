@@ -6,13 +6,13 @@ import Keycloak from "keycloak-js";
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 let initOptions = {
-  // url: "https://keycloak-shift.inside10d.com/",
-  // realm: "m2p",
-  // clientId: "frontend",
+  url: "https://keycloak-shift.inside10d.com/",
+  realm: "m2p",
+  clientId: "frontend",
 
-  url: process.env.REACT_APP_KEYCLOAK_URL,
-  realm: process.env.REACT_APP_KEYCLOAK_REALM,
-  clientId: process.env.REACT_APP_KEYCLOAK_CLIENTID,
+  // url: process.env.REACT_APP_KEYCLOAK_URL,
+  // realm: process.env.REACT_APP_KEYCLOAK_REALM,
+  // clientId: process.env.REACT_APP_KEYCLOAK_CLIENTID,
   onLoad: "check-sso", // check-sso | login-required
   KeycloakResponseType: "code",
 };
